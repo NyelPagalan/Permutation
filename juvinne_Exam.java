@@ -100,7 +100,8 @@ public class juvinne_Exam {
 		System.out.println();
 		
 		if(numSelect < 1 || numSelect> queue.size()) {
-			System.out.println("invalid. must be 1 to " + queue.size());
+			System.out.println("invalid. must be 1 to " + queue.size() + ".");
+			return;
 		}
 		
 		String[] elements = copyQueue();
